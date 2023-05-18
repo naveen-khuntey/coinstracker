@@ -2,6 +2,7 @@ import React,{useState, useEffect} from 'react';
 import axios from 'axios';
 import './App.css';
 import Coin from './components/Coin';
+import Header from './components/Header';
 
 function App() {
   const [coins,setCoins] = useState([]);
@@ -40,6 +41,7 @@ function App() {
           <input onChange={handleChange} type='text' placeholder='search' className='coin-input'/>
         </form>
       </div>
+      <Header/>
       <div>
         {filterCoin.map(coin => {
           return (
