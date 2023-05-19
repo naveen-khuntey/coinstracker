@@ -12,7 +12,7 @@ const Header = () => {
         <div className="coin-data">
             <p className="coin-price">PRICE</p>
             <p className="coin-volume">VOLUME</p>
-            <p className="coin-percent red">PRICE CHANGE</p>
+            <p className="coin-percent">PRICE CHANGE</p>
             <p className="coin-marketcap">MARKETCAP</p>
         </div>
       </div>
